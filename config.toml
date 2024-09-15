@@ -1,0 +1,31 @@
+baseURL = 'http://ozankukul.github.io/'
+languageCode = 'en-us'
+theme = 'terminal'
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    title = "Title"
+    subtitle = "Subtitle"
+    keywords = ""
+    copyright = ""
+    menuMore = "show more"
+    readMore = "read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "home"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about me"
+        url = "/about"
