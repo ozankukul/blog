@@ -1,4 +1,4 @@
-baseURL = 'http://ozankukul.github.io/'
+baseURL = 'https://ozankukul.github.io/blog'
 languageCode = 'en-us'
 theme = 'terminal'
 paginate = 5
